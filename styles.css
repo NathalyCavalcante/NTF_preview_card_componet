@@ -1,0 +1,146 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+a {
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+}
+
+
+.big-text {
+    font-size: 1.5rem;
+    color:  hsl(0, 0%, 100%);
+}
+
+a:hover, .big-text:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.et-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color:hsl(178, 100%, 50%);
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    border-radius: 0.938rem;
+    width: 21.875rem;
+    height: 37.5rem;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.563rem;
+    box-shadow: 0 0px 0px 0 black, 0 0px 20px 20px hsl(216, 56%, 9%);
+}
+
+.container {
+    position: relative;
+    width: 19.063rem;
+    height: 19.063rem;
+    margin-bottom:  1.563rem;;
+}
+  
+.img-base {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.938rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: hsl(178, 100%, 50%, 0.5 );
+    border-radius: 0.938rem;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+  
+.icon {
+    color: hsl(0, 0%, 100%);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 0;
+}
+
+.infos {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time, p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+.cl-icon, .et-icon {
+    margin-right: 0.625rem;
+    position: relative; 
+}
+
+hr {
+    height: 0px;
+    border: none;
+    border-top: 1px solid  hsl(215, 51%, 70%);
+}
+
+.avatar {
+    width: 2.188rem;
+    height: 2.188rem;
+    border-radius: 50%;
+    margin-right: 1.25rem;
+    border: 0.125rem solid  hsl(0, 0%, 100%);
+
+}
+
+.creator {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.credits {
+    margin-top: 1.25rem;
+    font-family: inherit;
+    font-size: 0.75rem;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    }
