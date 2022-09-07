@@ -15,7 +15,7 @@ Users should be able to:
 
 ![my_screenshot](https://user-images.githubusercontent.com/100880176/188942742-41539fb9-40ec-433d-95a8-cf37281e4f12.jpg)
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Here](https://nathalycavalcante.github.io/NTF_preview_card_componet/)
 
 ## My process
 
